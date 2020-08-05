@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Convert sph to wav.
 # executed in /home2/magics/corpora/fisher-english/fisher_eng_tr_sp_d1/
 
 input_path=./audio

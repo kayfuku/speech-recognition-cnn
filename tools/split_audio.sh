@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Split wav files into utterances. 
 # executed in /home2/magics/corpora/fisher-english/fisher_eng_tr_sp_d1/
 
 # echo "Hello world!"

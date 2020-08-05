@@ -1,3 +1,4 @@
+# Select utterances using csv file. 
 # executed in /home2/magics/corpora/fisher-english/fisher_eng_tr_sp_d1/
 
 import pandas as pd
@@ -10,10 +11,10 @@ import shutil
 
 def main():
   # label_filename = 'utter_top4.csv'
-  label_file_stem = 'lang70_region'
+  label_file_stem = 'lang30_region'
   labels_path = 'label_data/' + label_file_stem + '.csv'
   input_utterances_path = './slices'
-  out_dir = 'selected_utterances_' + label_file_stem + '_v1.5'
+  out_dir = 'selected_utterances_' + label_file_stem
 
   os.makedirs(out_dir)
 
@@ -33,7 +34,7 @@ def main():
       count += 1
       if count % 1000 == 0:
         print(count)
-      if count == 50000:
+      if count == 10000:
         break
 
   print('count:', count)
