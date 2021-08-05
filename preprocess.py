@@ -4,7 +4,7 @@ import librosa
 import os
 import pathlib
 from sklearn.model_selection import train_test_split
-from keras.utils import to_categorical
+# from keras.utils import to_categorical
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
